@@ -1,0 +1,13 @@
+[package]
+name = "my-color-picker"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+eframe = "0.17.0"
+egui_extras = { version = "0.17.0", features = ["image"] }
+image = "0.24.1"
+arboard = "2.1.0"
+scrap = "0.5"
